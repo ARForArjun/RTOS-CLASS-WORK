@@ -23,6 +23,7 @@ i=int(input("enter the number:"))
 print(factorial_iterative(i))
 
 4. Store and display marks of 5 students.
+
 student={}
 for i in range(5):
   name=input(f"Enter the name of the student {i+1} :")
@@ -33,6 +34,7 @@ for name,mark in student.items():
   print (f"{name}:{mark}")
 
 5. Write a program to take 5 student names and marks, store in a dictionary, and print topper’s name
+
 student={}
 for i in range(5):
   name=input(f"Enter the name of the student {i+1} :")
