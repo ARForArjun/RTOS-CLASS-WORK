@@ -31,6 +31,19 @@ for i in range(5):
 print("mark list of students:")
 for name,mark in student.items():
   print (f"{name}:{mark}")
+
+5. Write a program to take 5 student names and marks, store in a dictionary, and print topper’s name
+student={}
+for i in range(5):
+  name=input(f"Enter the name of the student {i+1} :")
+  mark=int(input(f"Enter the mark of {name} :"))
+  student[name]=mark
+print("mark list of students:")
+for name,mark in student.items():
+  print (f"{name}:{mark}")
+topper_name = max(student, key=student.get)
+topper_marks = student[topper_name]
+print(f"\nTopper: {topper_name} with {topper_marks} marks")
   
 
 
