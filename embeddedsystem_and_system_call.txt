@@ -1,0 +1,17 @@
+1.What is real time embedded system? 
+A real-time embedded system is a specialized computing system designed to perform dedicated functions within strict time constraints.These systems are embedded into larger devices and must respond to inputs or events within a guaranteed time frame.It is about getting the right answer at the right time.
+examples:
+Anti-lock braking system (ABS), airbag control, GPS,MRI machines, patient monitors,Missile guidance, satellite control
+
+2.Various system calls for linux os and windows os.List it.
+
+Functionality	         Linux	      Windows
+File Open	             open()   	 CreateFile()
+File Read              Read()      ReadFile()
+FIle Write             Write()     WriteFile()
+DirectoryCreation      mkdir()     CreateDirectory()/mkdir()
+List files             ls          dir
+Change directory       cd          cd
+Copy files             cp          copy
+clear                  clear       cls
+current path	         pwd	         chdir
